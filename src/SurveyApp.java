@@ -119,7 +119,7 @@ public class SurveyApp extends JFrame {
         try {
             String url = "jdbc:mysql://localhost:3306/survey_db";
             String username = "root";
-            String password = "Aryan@htc03";
+            String password = "your pass";
             connection = DriverManager.getConnection(url, username, password);
 
             String insertQuery = "INSERT INTO feedback (name,email,additional_field,feedback) VALUES (?, ?, ?, ?)";
